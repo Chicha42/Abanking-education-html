@@ -1,16 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Antools UI</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
-    
-</body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="brand">
+                <img src="assets/logos/antools_logo.svg" alt="Logo">
+                <span class="brand-name">antools.</span>
+            </div>
 
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="dropdown">Categories <img src="assets/elements/chevron-down.svg" alt="Down"></a></li>
+                    <li><a href="#">My collection</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="auth-panel">
+                <button class="btn login">Login</button>
+                <button class="btn register">Sign Up</button>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-info">
+                <h1>Awesome tools for<br>Designer & Developer<span class="accent">.</span></h1>
+                <p>Antool is a web collection of information on paid or<br>free Design and Development tools</p>
+
+                <div class="search">
+                    <img src="assets/elements/search.svg" alt="Search Icon">
+                    <label><input type="text" placeholder="Find more than 430+ tools..."></label>
+                    <button>Search</button>
+                </div>
+
+                <div class="social">
+                    <button><img src="assets/logos/facebook.svg" alt="Facebook"></button>
+                    <button><img src="assets/logos/instagram.svg" alt="Instagram"></button>
+                    <button><img src="assets/logos/twitter.svg" alt="Twitter"></button>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/elements/background.svg" alt="Illustration">
+            </div>
+        </section>
+
+        <section class="tools">
+            <div class="tools-header">
+                <h2>Most Popular Tools</h2>
+                <p>Tools for the best Designers and Developers<br>most popularly used in the world</p>
+            </div>
+
+            <div class="tool-grid">
+                <div class="tool-item">
+                    <div class="blur-ball"></div>
+                    <div class="item-head">
+                        <img src="assets/logos/figma.svg" alt="Figma">
+                        <div>
+                            <h3>Figma</h3>
+                            <p>Free</p>
+                        </div>
+                    </div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="item-foot">
+                        <div class="actions">
+                            <button><img src="assets/elements/heart.svg" alt="Like"></button>
+                            <button><img src="assets/elements/folder.svg" alt="Save"></button>
+                        </div>
+                        <button class="visit">Visit</button>
+                    </div>
+                </div>
+
+                <div class="tool-item">
+                    <div class="blur-ball"></div>
+                    <div class="item-head">
+                        <img src="assets/logos/sketch.svg" alt="Sketch">
+                        <div>
+                            <h3>Sketch</h3>
+                            <p>Trial & Paid</p>
+                        </div>
+                    </div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="item-foot">
+                        <div class="actions">
+                            <button><img src="assets/elements/heart.svg" alt="Like"></button>
+                            <button><img src="assets/elements/folder.svg" alt="Save"></button>
+                        </div>
+                        <button class="visit">Visit</button>
+                    </div>
+                </div>
+
+                <div class="tool-item">
+                    <div class="blur-ball"></div>
+                    <div class="item-head">
+                        <img src="assets/logos/VS_Code.svg" alt="VS Code">
+                        <div>
+                            <h3>Visual Studio Code</h3>
+                            <p>Free</p>
+                        </div>
+                    </div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="item-foot">
+                        <div class="actions">
+                            <button><img src="assets/elements/heart.svg" alt="Like"></button>
+                            <button><img src="assets/elements/folder.svg" alt="Save"></button>
+                        </div>
+                        <button class="visit">Visit</button>
+                    </div>
+                </div>
+
+                <div class="tool-item">
+                    <div class="blur-ball"></div>
+                    <div class="item-head">
+                        <img src="assets/logos/notion.svg" alt="Notion">
+                        <div>
+                            <h3>Notion</h3>
+                            <p>Free & Paid</p>
+                        </div>
+                    </div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="item-foot">
+                        <div class="actions">
+                            <button><img src="assets/elements/heart.svg" alt="Like"></button>
+                            <button><img src="assets/elements/folder.svg" alt="Save"></button>
+                        </div>
+                        <button class="visit">Visit</button>
+                    </div>
+                </div>
+
+                <div class="tool-item">
+                    <div class="blur-ball"></div>
+                    <div class="item-head">
+                        <img src="assets/logos/slack_tools.svg" alt="Slack">
+                        <div>
+                            <h3>Slack</h3>
+                            <p>Free & Paid</p>
+                        </div>
+                    </div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="item-foot">
+                        <div class="actions">
+                            <button><img src="assets/elements/heart.svg" alt="Like"></button>
+                            <button><img src="assets/elements/folder.svg" alt="Save"></button>
+                        </div>
+                        <button class="visit">Visit</button>
+                    </div>
+                </div>
+
+                <div class="tool-item">
+                    <div class="blur-ball"></div>
+                    <div class="item-head">
+                        <img src="assets/logos/Invision.svg" alt="invision">
+                        <div>
+                            <h3>Invision</h3>
+                            <p>Free & Paid</p>
+                        </div>
+                    </div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="item-foot">
+                        <div class="actions">
+                            <button><img src="assets/elements/heart.svg" alt="Like"></button>
+                            <button><img src="assets/elements/folder.svg" alt="Save"></button>
+                        </div>
+                        <button class="visit">Visit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-more">
+                <button>Load More</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-box">
+                <div class="highlight"></div>
+                <h2>Trusted more than 150+ brand</h2>
+                <div class="brands">
+                    <img src="assets/logos/microsoft.svg" alt="Microsoft">
+                    <img src="assets/logos/google.svg" alt="Google">
+                    <img src="assets/logos/slack_footer.svg" alt="Slack">
+                    <img src="assets/logos/wordpress.svg" alt="Wordpress">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
